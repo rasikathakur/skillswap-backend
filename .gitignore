@@ -12,6 +12,23 @@ dist
 dist-ssr
 *.local
 
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+skillswapenv/
+.venv/
+venv/
+
+# Secrets and key material
+*.pem
+*.key
+vapid_keys.txt
+priv.txt
+pub.txt
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
