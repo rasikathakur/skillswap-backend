@@ -22,6 +22,9 @@ skillswapenv/
 .venv/
 venv/
 
+# Python cache
+__pycache__/
+
 # Secrets and key material
 *.pem
 *.key
