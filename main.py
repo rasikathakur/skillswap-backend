@@ -76,10 +76,7 @@ async def _stop_supabase_keepalive_worker():
 
 # Configure CORS
 origins = [
-    "http://localhost:3000",
-    "http://localhost:5173",
-    "http://127.0.0.1:3000",
-    "http://127.0.0.1:5173",
+    "https://skillswap-frontend-fawn.vercel.app",
 ]
 
 if os.getenv("FRONTEND_URL"):
